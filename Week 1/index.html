@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment - Week1 </title>
+    <style>
+      #para1 {
+        text-align: center;
+        color: green ;
+        font-family: Arial Black ;
+        font-size: 18px;
+      }
+      
+       #para2 {
+           text-align: center;
+         color: blue ;
+         font-family: Comic Sans MS ;
+         font-size: 14px;
+      }
+      
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        width: 80%;
+      } 
+      th ,td {
+        padding: 20px;
+        background-color:yellow;
+        
+        }
+      
+      .form-container {
+            margin-top: 50px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+        }
+       
+       button {
+            padding: 10px 20px;
+            font-size: 14px;
+            color:white;
+            background-color: blue;
+            border: 2px solid gray;
+            border-radius: 5px;
+        }
+
+        
+        button:hover {
+            background-color: darkblue;
+        }
+      
+    </style>
+    
+  </head>
+  <body>
+    <h1 style = "color:red ; text-align: center">Sustainable Development</h1>
+    <P id="para1">
+      Sustainable development is an approach to growth and human development that aims to meet the needs of the present without compromising the ability of future generations to meet their own needs. The aim is to have a society where living conditions and resources meet human needs without undermining planetary integrity. Sustainable development aims to balance the needs of the economy, environment, and society. The Brundtland Report in 1987 helped to make the concept of sustainable development better known.
+    </P>
+    
+    <p id ="para2">
+      The Sustainable Development Goals (SDGs), also known as the Global Goals, were adopted by the United Nations in 2015 as a universal call to action to end poverty, protect the planet, and ensure that by 2030 all people enjoy peace and prosperity. The 17 SDGs are integrated—they recognize that action in one area will affect outcomes in others, and that development must balance social, economic and environmental sustainability. Countries have committed to prioritize progress for those who're furthest behind. The SDGs are designed to end poverty, hunger, AIDS, and discrimination against women and girls.
+    </p>
+    
+    <div style="text-align: center; margin-top: 5vh; color: brown">
+        <img alt="Sustainable Development Goals" width="500" height="400" src="data:image/png;base64,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">
+        <p >These are goals of sustainable developments.</p>
+    </div>
+    
+    <h2 style = "color: orange ; text-align: center">Student's Personal Details</h3>
+    <table >
+      <tr>
+        <th>Name</th>
+        <th>Registeration Number</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <td>Kim Seokjin</td>
+        <td>22BCE10471</td>
+        <td>8965646570</td>
+      </tr>
+      <tr>
+        <td>Jung Hoseok</td>
+        <td>22BCE11432</td>
+        <td>8965646570</td>
+      </tr>
+      <tr>
+        <td>Min Yoongi</td>
+        <td>22BCE10671</td>
+        <td>8965646570</td>
+      </tr>
+    </table>
+    
+    
+    
+    <div class="form-container">
+      
+      <h2 style ="color: green ;text-align: center">Course Registeration Form</h2>
+      <form>
+        <label for="name" >Name: </label>
+        <input type="text" id = "name" name="name" placeholder="Enter your name" ><br>
+          
+        <label for="email">Email:</label>
+        <input type="text" id = "email" name="email" placeholder="Enter your email"><br>
+          
+        <label for="course">Choose the course(s) you want:</label><br>
+          
+        <input type="checkbox" id="java" name="java" >
+        <label for="java">Advanced Java Programming</label><br>
+          
+        <input type="checkbox" id="python" name="python" >
+        <label for="python">Python Programming</label><br>
+          
+        <button >Submit</button>
+          
+          
+      </form>
+  </div>
+  </body>
+</html>
